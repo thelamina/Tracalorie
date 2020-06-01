@@ -14,31 +14,33 @@
     <section id="add-form">
       <div class="card">
         <h2 class="title">Add Meal / Food Item</h2>
-        <form action="" id="add-tem">
-          <div class="form-group">
+        <form action="" id="add-item">
+          <div class="form-group"> 
             <label for="meal">Meal</label>
-            <input type="text" id="meal" placeholder="Add Item" />
+            <input type="text" id="item-name" placeholder="Add Item" />
           </div>
           <div class="form-group">
             <label for="calories">Calories</label>
-            <input type="text" id="calories" placeholder="Add calories"/>
+            <input type="number" id="calories" placeholder="Add calories" />
           </div>
-          <button type="submit" id="submit" class="btn btn-primary">Add Meal</button>
+          <button type="submit" id="add-btn" class="btn btn-primary">
+            Add Meal
+          </button>
           <!-- <button type="submit" id="submit" class="btn btn-success">Update Meal</button>
           <button type="submit" id="submit" class="btn btn-danger">Delete Meal</button> -->
-          <button type="submit" id="submit" class="btn btn-neutral">Back</button>
+          <button type="submit" id="submit" class="btn btn-neutral">
+            Back
+          </button>
         </form>
       </div>
     </section>
     <section id="list">
-      <h1>Total Calories: 1500</h1>
+      <h1>Total Calories: 0</h1>
 
-      <div id="item-list">
-        <ul>
-          <li>Steak Dinner: <span>900 Calories</span> <a href="#">edit</a></li>
-          <li>Steak Dinner: <span>900 Calories</span> <a href="#">edit</a></li>
-        </ul>
-      </div>
+      <ul id="item-list">
+        <!-- <li>Steak Dinner: <span>900 Calories</span> <a href="#">edit</a></li>
+        <li>Steak Dinner: <span>900 Calories</span> <a href="#">edit</a></li> -->
+      </ul>
     </section>
     <!-- SCRIPTS -->
     <script src="app/app.js"></script>

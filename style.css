@@ -50,11 +50,10 @@ nav {
   background: #ff0000;
 }
 .btn-success {
-  background:#50509e;
+  background: #50509e;
 }
-.btn-neutral{
-  background:#a5a5a5;
-
+.btn-neutral {
+  background: #a5a5a5;
 }
 
 /* form */
@@ -72,7 +71,7 @@ form {
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
 }
-h1{
+h1 {
   text-align: center;
   font-size: 32px;
   font-weight: 600;
@@ -106,21 +105,21 @@ input::placeholder {
   font-weight: 500;
 }
 
-ul{
+ul {
   max-width: 900px;
   margin: auto;
   list-style: none;
-  border:1px solid #00000048;
+  border: 1px solid #00000048;
   border-radius: 2px;
   /* padding: 10px; */
 }
 
-ul li{
+ul li {
   font-weight: 500;
   padding: 15px;
   border-bottom: 1px solid #00000048;
 }
-li{
+li {
   display: flex;
   justify-content: space-between;
 }
